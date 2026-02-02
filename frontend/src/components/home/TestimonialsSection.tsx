@@ -3,7 +3,7 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "CI Lab has transformed how our students understand online safety. The program is engaging, practical, and incredibly relevant.",
+    quote: "CAI Lab has transformed how our students understand online safety. The program is engaging, practical, and incredibly relevant.",
     author: "Maria Christodoulou",
     role: "Principal, Limassol Academy",
     rating: 5,

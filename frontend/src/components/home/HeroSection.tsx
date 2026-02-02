@@ -55,7 +55,7 @@ export const HeroSection = () => {
               transition={{ delay: 0.4 }}
               className="text-xl text-primary-foreground/80 leading-relaxed mb-8 max-w-xl"
             >
-              CI Lab equips children and teens with essential cyber safety, digital literacy, 
+              CAI Lab equips students and youth with essential cyber safety, digital literacy, 
               and AI skills through our innovative 5-Pillar educational model.
             </motion.p>
 
@@ -66,8 +66,8 @@ export const HeroSection = () => {
               className="flex flex-wrap gap-4"
             >
               <Button variant="hero" size="xl" asChild>
-                <Link to="/enroll">
-                  Enroll Now
+                <Link to="/dirs/start">
+                  Take the DIRS Assessment
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </Button>

@@ -85,7 +85,7 @@ const deliveryOptions = [
     features: ["Concentrated learning", "Hands-on activities", "Team challenges", "Take-home resources", "Certificate of completion"],
   },
   {
-    title: "CI Club",
+    title: "CAI Club",
     description: "Ongoing after-school club with continuous learning",
     duration: "Ongoing",
     sessions: "Weekly 90-min sessions",
@@ -101,7 +101,7 @@ const Programs = () => {
         <title>Programs - CAI Lab 5-Pillar Digital Literacy Curriculum</title>
         <meta 
           name="description" 
-          content="Explore CI Lab's 5-Pillar curriculum covering cyber safety, AI literacy, digital citizenship, privacy, and critical thinking. Multiple delivery formats available." 
+          content="Explore CAI Lab's 5-Pillar curriculum covering cyber safety, AI literacy, digital citizenship, privacy, and critical thinking. Multiple delivery formats available." 
         />
       </Helmet>
       <div className="min-h-screen">
@@ -315,7 +315,7 @@ const Programs = () => {
                     Certificate of Completion
                   </h3>
                   <p className="text-primary-foreground/80 mb-8">
-                    Students who complete the full program receive a CI Lab Digital Citizen 
+                    Students who complete the full program receive a CAI Lab Digital Citizen 
                     Certificate, recognized by our partner organizations.
                   </p>
                   <Button variant="hero" asChild>

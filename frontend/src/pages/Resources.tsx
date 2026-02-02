@@ -62,7 +62,7 @@ const blogPosts = [
 
 const faqs = [
   {
-    question: "What age group is CI Lab designed for?",
+    question: "What age group is CAI Lab designed for?",
     answer: "Our programs are tailored for students aged 8-18, with age-appropriate content for Junior (8-11), Middle (12-14), and Senior (15-18) groups.",
   },
   {

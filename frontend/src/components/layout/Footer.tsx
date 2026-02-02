@@ -6,13 +6,7 @@ const footerLinks = {
     { name: "5-Pillar Model", href: "/programs" },
     { name: "Bootcamps", href: "/events" },
     { name: "School Programs", href: "/partners" },
-    { name: "CI Club", href: "/programs#club" },
-  ],
-  resources: [
-    { name: "Learning Hub", href: "/resources" },
-    { name: "Parent Guides", href: "/resources#parents" },
-    { name: "Teacher Resources", href: "/resources#teachers" },
-    { name: "Blog", href: "/resources#blog" },
+    { name: "CAI Club", href: "/programs#club" },
   ],
   company: [
     { name: "About Us", href: "/about" },
@@ -47,7 +41,7 @@ export const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-primary-foreground/10 flex items-center justify-center backdrop-blur-sm">
                 <Shield className="w-6 h-6 text-primary-foreground" />
               </div>
-              <span className="font-display font-bold text-xl">CI Lab</span>
+              <span className="font-display font-bold text-xl">CAI Lab</span>
             </Link>
             <p className="text-primary-foreground/70 mb-6 leading-relaxed">
               Empowering the next generation with essential digital literacy, cyber safety,
@@ -70,23 +64,6 @@ export const Footer = () => {
             <h4 className="font-display font-semibold text-lg mb-4">Programs</h4>
             <ul className="space-y-3">
               {footerLinks.programs.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    to={link.href}
-                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h4 className="font-display font-semibold text-lg mb-4">Resources</h4>
-            <ul className="space-y-3">
-              {footerLinks.resources.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
@@ -137,7 +114,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} CI Lab. All rights reserved.
+            © {new Date().getFullYear()} CAI Lab. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((social) => (

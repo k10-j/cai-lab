@@ -3,7 +3,6 @@ import { Footer } from "@/components/layout/Footer";
 import { HeroSection } from "@/components/home/HeroSection";
 import { PillarsSection } from "@/components/home/PillarsSection";
 import { StatsSection } from "@/components/home/StatsSection";
-import { TestimonialsSection } from "@/components/home/TestimonialsSection";
 import { CTASection } from "@/components/home/CTASection";
 import { Helmet } from "react-helmet-async";
 
@@ -23,7 +22,6 @@ const Index = () => {
           <HeroSection />
           <PillarsSection />
           <StatsSection />
-          <TestimonialsSection />
           <CTASection />
         </main>
         <Footer />

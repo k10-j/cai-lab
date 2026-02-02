@@ -225,7 +225,7 @@ const Enroll = () => {
                               >
                                 <option value="">Select a program</option>
                                 <option value="bootcamp">3-Day Bootcamp</option>
-                                <option value="club">CI Club Membership</option>
+                                <option value="club">CAI Club Membership</option>
                                 <option value="workshop">Individual Workshop</option>
                               </select>
                             </div>

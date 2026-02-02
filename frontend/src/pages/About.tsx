@@ -8,8 +8,8 @@ import { Helmet } from "react-helmet-async";
 
 const teamMembers = [
   {
-    name: "Dr. Sarah Konstantinou",
-    role: "Founder & Director",
+    name: "Kate Lorna Iriza",
+    role: "Founder & Chief Executive Officer",
     bio: "Cybersecurity expert with 15+ years in digital education. Former consultant to EU digital safety initiatives.",
   },
   {
@@ -18,12 +18,12 @@ const teamMembers = [
     bio: "Former teacher and education technology specialist. Designs engaging, age-appropriate content.",
   },
   {
-    name: "Elena Georgiou",
-    role: "Program Coordinator",
-    bio: "Experienced in youth programs and community outreach. Ensures smooth delivery of all CI Lab programs.",
+    name: "Tiffany Emma Umwali",
+    role: "Chief Operations Officer",
+    bio: "Experienced in youth programs and community outreach. Ensures smooth delivery of all CAI Lab programs.",
   },
   {
-    name: "Nikos Papadakis",
+    name: "Michael Peter",
     role: "Technology Lead",
     bio: "Software engineer passionate about making technology accessible and safe for young learners.",
   },
@@ -32,8 +32,8 @@ const teamMembers = [
 const values = [
   {
     icon: Heart,
-    title: "Child-Centered",
-    description: "Every program is designed with the safety and wellbeing of children as the top priority.",
+    title: "Student-Centered",
+    description: "Every program is designed with the safety and wellbeing of students as the top priority.",
   },
   {
     icon: Award,
@@ -43,7 +43,7 @@ const values = [
   {
     icon: Users,
     title: "Inclusivity",
-    description: "Digital literacy education should be accessible to all children regardless of background.",
+    description: "Digital literacy education should be accessible to all students regardless of background.",
   },
   {
     icon: BookOpen,
@@ -59,7 +59,7 @@ const About = () => {
         <title>About CAI Lab - Our Mission to Empower Digital Citizens</title>
         <meta 
           name="description" 
-          content="Learn about CI Lab's mission to equip youth with digital literacy and cyber safety skills. Meet our team and discover why we're passionate about digital education." 
+          content="Learn about CAI Lab's mission to equip youth with digital literacy and cyber safety skills. Meet our team and discover why we're passionate about digital education." 
         />
       </Helmet>
       <div className="min-h-screen">

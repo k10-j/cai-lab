@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* Navy Blue & White Theme for CI Lab */
+    /* Navy Blue & White Theme for CAI Lab */
     --background: 210 50% 98%;
     --foreground: 217 33% 17%;
 
@@ -41,7 +41,7 @@
 
     --radius: 0.75rem;
 
-    /* Custom CI Lab colors */
+    /* Custom CAI Lab colors */
     --navy: 217 71% 22%;
     --navy-light: 217 50% 35%;
     --navy-dark: 217 80% 15%;
@@ -195,4 +195,17 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--navy));
+}
+
+/* Print styles for DIRS report */
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+  .print\:pt-4 {
+    padding-top: 1rem;
+  }
+  nav, footer, .print\:no-print {
+    display: none !important;
+  }
 }

@@ -21,7 +21,7 @@ const buttonVariants = cva(
           "text-foreground hover:bg-muted hover:text-foreground",
         link: 
           "text-primary underline-offset-4 hover:underline",
-        // CI Lab custom variants
+        // CAI Lab custom variants
         accent:
           "bg-accent text-accent-foreground shadow-md hover:shadow-glow hover:brightness-110 active:scale-[0.98]",
         hero:

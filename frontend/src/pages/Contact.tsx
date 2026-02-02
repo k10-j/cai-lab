@@ -133,7 +133,7 @@ const Contact = () => {
                       <Input
                         id="email"
                         type="email"
-                        placeholder="john@example.com"
+                        placeholder="john.doe@example.com"
                         required
                         className="h-12"
                       />

@@ -8,10 +8,10 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
+  { name: "DIRS", href: "/dirs" },
   { name: "Programs", href: "/programs" },
-  { name: "For Schools", href: "/partners" },
+  { name: "Partnerships", href: "/partners" },
   { name: "Events", href: "/events" },
-  { name: "Resources", href: "/resources" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -29,7 +29,7 @@ export const Navbar = () => {
               <Shield className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="font-display font-bold text-xl text-primary">
-              CI Lab
+              CAI Lab
             </span>
           </Link>
 

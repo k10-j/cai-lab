@@ -19,7 +19,7 @@ const upcomingEvents = [
   },
   {
     title: "AI for Teens Workshop",
-    date: "August 5, 2024",
+    date: "August 5, 2026",
     time: "10:00 AM - 4:00 PM",
     location: "Nicosia Innovation Hub",
     ageGroup: "Ages 14-18",
@@ -29,7 +29,7 @@ const upcomingEvents = [
   },
   {
     title: "Parent & Child Cyber Safety Day",
-    date: "August 20, 2024",
+    date: "August 20, 2026",
     time: "10:00 AM - 1:00 PM",
     location: "Online (Zoom)",
     ageGroup: "Families",
