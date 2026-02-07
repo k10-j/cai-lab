@@ -1,26 +1,14 @@
-# Welcome to your Lovable project
+# CAI Lab – Frontend
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/08e7f954-dd2a-4a72-9cdf-30fa59841857
+CAI Lab – Cyber Awareness & Artificial Intelligence Education for Youth. This is the web frontend for the CAI Lab site (digital literacy, cyber safety, and AI education).
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/08e7f954-dd2a-4a72-9cdf-30fa59841857) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Clone this repo and work locally. You need Node.js and npm installed – [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -62,12 +50,8 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/08e7f954-dd2a-4a72-9cdf-30fa59841857) and click on Share -> Publish.
+Build the app with `npm run build` and deploy the `dist` folder to your hosting provider (e.g. Vite preview, Vercel, Netlify).
 
-## Can I connect a custom domain to my Lovable project?
+## Custom domain
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+You can connect a custom domain through your hosting provider’s dashboard (e.g. Vercel Domains, Netlify Domain settings).
